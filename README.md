@@ -22,7 +22,21 @@
    - jawaban :
      Pernah, dengan skenario sebagai berikut:
      
-     Sebuah perusahaan perfilman terdiri dari empat bagian yaitu Manajemen, Kreatif, HRD, dan Produksi. Perusahaan tersebut medirikan sebuah gedung dua lantai (Kantor A) dan satu kantor cabang (Kantor B) dengan desain layout jaringan komputer 
+     Sebuah perusahaan perfilman terdiri dari empat bagian yaitu Manajemen, Kreatif, HRD, dan Produksi. Perusahaan tersebut medirikan sebuah gedung dua lantai (Kantor A) dan satu kantor cabang (Kantor B).
+
+     - Dengan kebutuhan jaringan :
+       - Kantor A Lantai 1
+         1. Ruang HRD - 3 komputer dan 1 printer - terhubung ke switch A -  terhubung ke router 0
+         2. Ruang Manajemen - 6 Komputer dan 1 printer - terhubung ke switch A - terhubung ke router 0
+       - Kantor A Lantai 2
+         1. Ruang Kreatif - 7 komputer dan 1 printer - terhubung ke switch B -  terhubung ke router 1
+       - Kantor B Lantai 1
+         1. Ruang Produksi - 3 komputer dan 1 printer - terhubung ke switch C -  terhubung ke router 2
+       - Kantor B Lantai 2
+         1. Ruang Produksi - 5 komputer dan 1 printer - terhubung ke switch D -  terhubung ke router 3
+      - Kantor A dan Kantor B merupakan autonomous system yang berbeda. Menghubungkan host to host dengan menggunakan Cisco Packet Tracer. Alamat IP end device yang terhubung ke jaringan menggunakan DHCP. Menggunakan protokol OSPF untuk routing dinamis dalam satu Kantor dan menghubungkan Kantor A dan Kantor B menggunakan protokol BGP(Border Gateway Protocol).
+
+
 
 # Design Modules
 
